@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+
+}
+body {
+    text-align: center;
+    margin: 0;
+    color : white;
+    min-height: 200vh; /*va faire 2 fox la taille de l'écran de l'utilisateur. 100vh va faire la taille de l'écran de l'utilisateur */
+}
+.box {
+    border : 6px solid white;
+    transition: 0.25s ease;
+    background: black;
+    padding: 20px;
+}
+p {
+    visibility: hidden;
+    width: 240px;
+    margin : 10px auto 0;
+}
+.mousemove{
+    height : 50px;
+    width : 50px;
+    border : 1px solid black;
+    border-radius: 50%;
+    position : absolute;
+}
